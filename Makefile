@@ -24,6 +24,7 @@ docgen: $(pandocdir)
 		--metadata=project:nightfox \
 		--metadata="description:A highly customizable theme for vim and neovim" \
 		--lua-filter misc/panvimdoc/scripts/skip-blocks.lua \
+		--metadata="incrementheadinglevelby:0" \
 		--lua-filter misc/panvimdoc/scripts/include-files.lua \
 		-t misc/panvimdoc/scripts/panvimdoc.lua \
 		usage.md \

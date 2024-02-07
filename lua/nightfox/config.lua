@@ -93,6 +93,7 @@ M.module_names = {
   "notify",
   "nvimtree",
   "pounce",
+  "rainbow_delimeter",
   "signify",
   "sneak",
   "symbol_outline",
