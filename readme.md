@@ -533,7 +533,7 @@ There are a few things to note:
 - [mini.nvim](https://github.com/echasnovski/mini.nvim)
 - [modes.nvim](https://github.com/mvllow/modes.nvim)
 - [nvim-navic](https://github.com/SmiteshP/nvim-navic)
-- [neogit](https://github.com/TimUntersberger/neogit)
+- [neogit](https://github.com/NeogitOrg/neogit)
 - [neotest](https://github.com/nvim-neotest/neotest)
 - [neo-tree](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - [nvim-notify](https://github.com/rcarriga/nvim-notify)
@@ -578,11 +578,7 @@ output the highlight group for the value under the cursor.
 #### Treesitter highlighting
 
 If treesitter is the highlighting method for the language in question you can use the command:
-`:TSHighlightCapturesUnderCursor`. This command comes from the treesitter [playground] plugin. Make
-sure you have this installed as well as [nvim-treesitter].
-
-[playground]: https://github.com/nvim-treesitter/playground#show-treesitter-and-syntax-highlight-groups-under-the-cursor
-[nvim-treesitter]: https://github.com/nvim-treesitter/nvim-treesitter
+`:Inspect`.
 
 #### Vim highlighting
 
@@ -623,6 +619,7 @@ There are [extra](./extra) configuration files for the following:
 - [iterm](https://iterm2.com/index.html)
 - [kitty](https://sw.kovidgoyal.net/kitty/overview/#configuring-kitty)
 - [konsole](https://konsole.kde.org/)
+- [starship](https://starship.rs/)
 - [tmux](https://github.com/tmux/tmux)
 - [warp](https://www.warp.dev/)
 - [wezterm](https://wezfurlong.org/wezterm/config/appearance.html#defining-a-color-scheme-in-a-separate-file)
@@ -640,7 +637,7 @@ There are [extra](./extra) configuration files for the following:
 - [oxocarbon.nvim](https://github.com/shaunsingh/oxocarbon.nvim) (carbonfox)
 - [coolers](https://coolers.co) (useful color information and palette tool)
 - [colorhexa](https://www.colorhexa.com/) (detailed color information)
-- [neogit](https://github.com/TimUntersberger/neogit/blob/b688a2c/lua/neogit/lib/color.lua) (base for color lib)
+- [neogit](https://github.com/NeogitOrg/neogit/blob/b688a2c/lua/neogit/lib/color.lua) (base for color lib)
 - [daltonlens](https://daltonlens.org/) (understanding cvd simulations and research. Thanks [@nburrus](https://github.com/nburrus)!)
 
 ## References
