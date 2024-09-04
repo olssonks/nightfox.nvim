@@ -95,7 +95,7 @@ M.module_names = {
   "nvimtree",
   "pounce",
   "rainbow_delimeter",
-  "render-markdown",
+  "render_markdown",
   "signify",
   "sneak",
   "symbol_outline",
