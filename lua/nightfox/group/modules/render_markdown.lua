@@ -23,7 +23,7 @@ function M.get(spec, config, opts)
   for i, color in ipairs(rainbow) do
     local new_bg = C.from_hex(color.base):shade(-0.45)
     groups["RenderMarkdownH" .. i .. "Bg"] = { bg = new_bg:to_hex() }
-    groups["RenderMarkdownH" .. i .. "Fg"] = { fg = color.base }
+    groups["RenderMarkdownH" .. i] = { fg = color.base }
   end
 
   return groups
