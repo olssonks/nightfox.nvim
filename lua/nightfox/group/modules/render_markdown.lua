@@ -18,9 +18,9 @@ function M.get(spec, config, opts)
     RenderMarkdownError = { fg = c.red.base },
   }
 
-
   for i, color in ipairs(rainbow) do
-    groups["RenderMarkdownH" .. i .. "Bg"] = { bg = color.dim}
+    local new_bg = C.from_hex(color.base:shade(-0.3))
+    groups["RenderMarkdownH" .. i .. "Bg"] = { bg = new_bg }
     groups["RenderMarkdownH" .. i .. "Fg"] = { fg = color.bright, bold = true }
   end
 
