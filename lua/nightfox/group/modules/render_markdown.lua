@@ -4,6 +4,8 @@ function M.get(spec, config, opts)
   local c = spec.palette
 
   local rainbow = {c.pink, c.blue, c.green, c.yellow, c.orange, c.red, c.magenta}
+  
+  local C = require "nightfox.lib.color"
 
   local groups = {
     RenderMarkdownCode = { bg = c.bg0 },
