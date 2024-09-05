@@ -22,8 +22,8 @@ function M.get(spec, config, opts)
 
   for i, color in ipairs(rainbow) do
     local new_bg = C.from_hex(color.base):shade(-0.45)
-    groups["RenderMarkdownH" .. i .."Fg"] = { bold = true}
-    groups["@markup.heading." .. i .. ".markdown"] = { fg = color.bright}
+    groups["RenderMarkdownH" .. i] = { bold = true}
+    groups["@markup.heading." .. i .. ".markdown"] = { fg = color.bright, bold=true}
     groups["RenderMarkdownH" .. i .. "Bg"] = { bg = new_bg:to_hex()}
   end
 
